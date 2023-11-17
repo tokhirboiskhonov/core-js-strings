@@ -192,10 +192,10 @@ function removeLastOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-function sumOfCodes(str1) {
-  if (!str1) return 0;
+function sumOfCodes(string1) {
+  if (!string1) return 0;
 
-  return str1
+  return string1
     .split('')
     .reduce((sum, charIdx) => sum + charIdx.charCodeAt(0), 0);
 }
